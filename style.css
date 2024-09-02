@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* ESTILOS GERAIS */
+* {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 20px 10px;
+}
+
+/* ESTILO CABEÇALHO  SOBRE MIM*/
+header h1 .titulo{
+    text-align: center;
+}
+h2{
+    color: rgb(202, 128, 177);
+    text-align: center;
+    line-height: 40px;
+}
+p{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 40px 4%;
+    border-radius: 20px;
+    border:2px solid white;
+}
+
+
+/* ESTILO MAIN*/
+a {
+    color: #dfd1db;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    color: #854d75;
+    transform: scale(1.10);
+}
+nav p{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* ESTILO PAG FORMAÇÃO */
+
+h1.titulo{
+    color:#faf9fa;
+    text-align: center;
+}
+span{
+    color:#721859;
+}
+
+nav ul li{
+    font-size: 20px;
+    color: white;
+}
+
+/* ESTILO PORTFOLIO */
+main p.p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* ESTILO CONTATO */
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #211f1f;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input[type=submit] {
+    width: 120px;
+    background-color: #610747;
+    cursor: pointer;
+}
